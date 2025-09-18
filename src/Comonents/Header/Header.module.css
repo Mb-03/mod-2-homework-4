@@ -1,0 +1,72 @@
+header {
+  display: flex;
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 33px 0;
+}
+
+header nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+header nav ul {
+  display: flex;
+  gap: 56px;
+  align-items: center;
+}
+
+header nav ul li a {
+  color: #403c39;
+  opacity: 50%;
+}
+
+.active {
+  color: #f38160;
+  opacity: 100%;
+  border-bottom: 2px solid #f38160;
+  padding-bottom: 8px;
+}
+
+.buttonsContainer {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.imageContainer {
+  display: flex;
+  position: relative;
+}
+
+.shoppingCart {
+  margin-right: 51px;
+  width: 32px;
+  height: 32px;
+}
+
+.shoppingCartActive {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 30px;
+}
+
+.primary {
+  text-decoration: underline;
+  color: #f38160;
+  font-size: 18px;
+  line-height: auto;
+  background: none;
+  border: none;
+}
+
+.secondary {
+  background-color: #f38160;
+  color: white;
+  padding: 16.5px 40px;
+  border-radius: 16px;
+  border: none;
+}

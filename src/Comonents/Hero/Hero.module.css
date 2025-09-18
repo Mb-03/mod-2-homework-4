@@ -1,0 +1,106 @@
+.mainTopContainer {
+  max-width: 1600px;
+  margin: 0 auto;
+  margin-top: 78px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainLeft {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainLeft h2 {
+  font-size: 75px;
+  color: #403c39;
+  margin-bottom: 16px;
+}
+
+.mainLeft span {
+  color: #f38160;
+}
+
+.mainLeft p {
+  color: #949494;
+  margin-bottom: 48px;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.mainInput {
+  display: flex;
+  margin-bottom: 40px;
+  width: fit-content;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.mainInput input {
+  background-color: #d0d0d225;
+  border: none;
+  padding: 17px 311px 16px 32px;
+}
+
+.searchLogo {
+  background-color: #f38160;
+  padding: 18px;
+}
+
+.serviceList {
+  display: flex;
+  max-width: 400px;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.serviceList li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.serviceList li h3 {
+  color: #949494;
+}
+
+.mainRight {
+  display: flex;
+  gap: 64px;
+}
+
+.personImg {
+  width: 553px;
+  height: 614px;
+}
+
+.productImgContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+
+  gap: 32px;
+  align-self: flex-end;
+}
+
+.productImg {
+  display: flex;
+  flex-direction: column;
+  padding: 17px 24px;
+  background-color: #fef9f7;
+  border-radius: 24px;
+  border: 1px solid #949494;
+  text-align: center;
+  gap: 8px;
+}
+
+.productImg p {
+  color: #f38160;
+  font-weight: 300;
+}
+
+.productImg h4 {
+  color: #403c39;
+}
