@@ -11,7 +11,7 @@ import honey from "../../assets/honey.png";
 import flour from "../../assets/flour.png";
 import Card from "../Card/Card";
 
-export default function Hero() {
+export default function Hero({ setCount }) {
   const serviceList = [
     {
       id: 1,
@@ -87,12 +87,12 @@ export default function Hero() {
           <img className={styles.personImg} src={mainPerson} alt="person" />
           <div className={styles.productImgContainer}>
             <div className={styles.productImg}>
-              <img src={spinach} alt="spinach" />
+              <img onClick={setCount} src={spinach} alt="spinach" />
               <h4>Fresh Spinach</h4>
               <p>$12.00</p>
             </div>
             <div className={styles.productImg}>
-              <img src={carrot} alt="carrot" />
+              <img onClick={setCount} src={carrot} alt="carrot" />
               <h4>Fresh Carrot</h4>
               <p>$9.00</p>
             </div>

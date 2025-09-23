@@ -49,9 +49,15 @@ header nav ul li a {
 
 .shoppingCartActive {
   position: absolute;
-  width: 10px;
-  height: 10px;
   left: 30px;
+  font-size: 16px;
+  background-color: #f38160;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .primary {
@@ -61,6 +67,7 @@ header nav ul li a {
   line-height: auto;
   background: none;
   border: none;
+  cursor: pointer;
 }
 
 .secondary {
@@ -69,4 +76,5 @@ header nav ul li a {
   padding: 16.5px 40px;
   border-radius: 16px;
   border: none;
+  cursor: pointer;
 }

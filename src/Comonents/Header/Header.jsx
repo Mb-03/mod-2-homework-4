@@ -3,7 +3,7 @@ import styles from "./Header.module.css";
 import shopping from "../../assets/shopping.svg";
 import shoppingActive from "../../assets/shopping-active.svg";
 
-export default function Header() {
+export default function Header({ count }) {
   const navData = [
     { id: 1, content: "Home", active: true },
     { id: 2, content: "Categories", active: false },
@@ -33,13 +33,9 @@ export default function Header() {
             <img
               className={styles.shoppingCart}
               src={shopping}
-              alt="shopping car"
+              alt="shopping cart"
             />
-            <img
-              className={styles.shoppingCartActive}
-              src={shoppingActive}
-              alt="shopping cart acitve"
-            />
+            <h1 className={styles.shoppingCartActive}>{count}</h1>
           </div>
 
           <button className={styles.primary}>Sign in</button>
